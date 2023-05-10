@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    
+}
+.card{
+    border: 2px solid #e6b0b0;
+    height: 450px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border-radius: 10px; */
+    background-color: rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+    
+}
+.profileImage{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 5px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+
+
+
+
+    
+    
+}
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.socialmedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+/* .socialmedia i:first-child{
+    color:blue;
+}
+.socialmedia i:nth-child(2){
+    color:green;
+}
+.socialmedia i:nth-child(3){
+    color: red;
+}
+.socialmedia i:last-child{
+    color:brown
+} */
+.facebook{
+    border-radius: 50%;
+    border: 5px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+    color:blue;
+}
+.twitter{
+    border-radius: 50%;
+    border: 5px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+    color:green;
+    
+
+}
+.youtube{
+    border-radius: 50%;
+    border: 5px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+    color: red;
+
+}
+.instagram{
+    border-radius: 50%;
+    border: 5px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+    color:brown;
+
+}
+
+
+.socialmedia{
+    font-size: 25px;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.button{
+    padding: 15px 0;
+}
+.likeandshare{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+
+    
+}
+.heart{
+    border-radius: 50%;
+    border: 8px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+
+}
+.thumbs{
+    border-radius: 50%;
+    border: 8px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+
+}
+.comment{
+    border-radius: 50%;
+    border: 8px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+
+}
+.message{
+    /* border-radius: 50%; */
+    border: 15px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+
+
+}
+.Subscribe{
+    /* border-radius: 50%; */
+    border: 15px solid rgb(221, 221, 221 );
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px white;
+
+}
+
+
